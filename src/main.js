@@ -7,7 +7,7 @@ import App from './App.vue'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-
+import 'material-symbols'
 const app = createApp(App)
 const pinia = createPinia();
 app.use(pinia);

@@ -12,6 +12,7 @@
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
     "aos": "^2.3.4",
+    "material-symbols": "^0.31.2",
     "pinia": "^3.0.2",
     "vue": "^3.5.13",
     "vue-i18n": "^11.1.3",
