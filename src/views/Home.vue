@@ -10,6 +10,7 @@ import ScrollToTop from '../components/common/ScrollToTop.vue'
 
 <template>
   <div class="space-y-20">
+    
     <Hero />
     <Skills />
     <Projects />
