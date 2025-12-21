@@ -4,7 +4,7 @@ const skills = [
   { name: 'Vue.js', level: 90, color: 'bg-green-500 dark:bg-green-600' },
   { name: 'JavaScript', level: 85, color: 'bg-yellow-500 dark:bg-yellow-600' },
   { name: 'Tailwind CSS', level: 80, color: 'bg-blue-500 dark:bg-blue-600' },
-  { name: 'React', level: 75, color: 'bg-blue-400 dark:bg-blue-500' },
+  { name: 'Python', level: 75, color: 'bg-blue-400 dark:bg-blue-500' },
   { name: 'Node.js', level: 70, color: 'bg-green-400 dark:bg-green-500' },
   { name: 'UI/UX Design', level: 65, color: 'bg-purple-500 dark:bg-purple-600' }
 ]
