@@ -19,7 +19,13 @@ const navItems = [
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <router-link to="/" class="text-2xl font-bold text-gray-800 dark:text-white">
-          <span class="text-indigo-600 dark:text-indigo-400">Profile</span>
+          <!-- <span class="text-indigo-600 dark:text-indigo-400">MR.PANDAY</span> -->
+           <!-- <h1 class="text-3xl font-bold text-indigo-600 dark:text-indigo-400">Prashuram Pandey</h1> -->
+            <div class="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold">
+  PP
+</div>
+
+
         </router-link>
 
         <!-- Desktop Menu -->

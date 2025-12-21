@@ -13,8 +13,8 @@ import ScrollToTop from '../components/common/ScrollToTop.vue'
     
     <Hero />
     <Skills />
-    <Projects />
     <ExperienceTimeline />
+    <Projects />
     <Testimonials />
     <Contact />
     <ScrollToTop />

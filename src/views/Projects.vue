@@ -1,28 +1,32 @@
 <script setup>
+  import emailNodeImg from '@/assets/emailnode.png'
+// import chatAppImg from '../assets/chat-app.jpg'
 const projects = [
+ 
   {
+    title: 'Node Email Project',
+    description: 'A Node.js project to send emails and save records in MongoDB using Nodemailer.',
+    tags: ['Node.js', 'MongoDB', 'Nodemailer'],
+    image: emailNodeImg,
+    link: './projects/NodeEmail/index.html' // relative link to your Node Email project HTML
+  },
+   {
+    title: 'Chat Application',
+    description: 'A private real-time chat application built using MEVN stack (MongoDB, Express, Vue.js, Node.js).',
+    tags: ['MEVN', 'Node.js', 'MongoDB', 'Vue.js'],
+    image: emailNodeImg, // put a screenshot of your chat app in assets
+    link: './projects/NodeEmail/index.html'
+  },
+   {
     title: 'E-commerce Platform',
     description: 'A full-featured online store with product listings, cart functionality, and checkout process.',
     tags: ['Vue.js', 'Tailwind CSS', 'Firebase'],
-    image: 'project1.jpg',
-    link: '#'
+    image: emailNodeImg,
+    link: './projects/NodeEmail/index.html'
   },
-  {
-    title: 'Task Management App',
-    description: 'A productivity application for organizing tasks with drag-and-drop functionality and team collaboration.',
-    tags: ['React', 'Node.js', 'MongoDB'],
-    image: 'project2.jpg',
-    link: '#'
-  },
-  {
-    title: 'Portfolio Website',
-    description: 'A responsive portfolio website showcasing my work and skills with smooth animations.',
-    tags: ['Vue.js', 'GSAP', 'Tailwind CSS'],
-    image: 'project3.jpg',
-    link: '#'
-  }
 ]
 </script>
+
 <template>
   <section id="projects" class="py-20 bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
     <div class="container mx-auto px-6">
@@ -35,7 +39,7 @@ const projects = [
         >
           <img 
             class="h-48 w-full object-cover" 
-            :src="`../assets/${project.image}`" 
+            :src="project.image" 
             :alt="project.title"
           >
           <div class="p-6">
