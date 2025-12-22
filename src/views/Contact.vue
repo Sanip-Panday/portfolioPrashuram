@@ -15,7 +15,7 @@ const messageType = ref('');
 const submitForm = async () => {
   try {
     console.log('Form data:', form.value);
-    const response = await axios.post('http://localhost:5000/v1/send-email', form.value);
+    const response = await axios.post('/api/send-email', form.value);
     message.value = response.data.message;
     console.log('Response:', response.data.success);
     messageType.value = 'success';
