@@ -1,6 +1,9 @@
 <script setup>
-  import emailNodeImg from '@/assets/emailnode.png'
-// import chatAppImg from '../assets/chat-app.jpg'
+  import emailNodeImg from '@/assets/email.png'
+  import chatapp from '@/assets/chatappl.jpg'
+  import ecom from '@/assets/ecom.jpg'
+  
+  // import chatAppImg from '../assets/chat-app.jpg'
 const projects = [
  
   {
@@ -14,14 +17,14 @@ const projects = [
     title: 'Chat Application',
     description: 'A private real-time chat application built using MEVN stack (MongoDB, Express, Vue.js, Node.js).',
     tags: ['MEVN', 'Node.js', 'MongoDB', 'Vue.js'],
-    image: emailNodeImg, // put a screenshot of your chat app in assets
+    image: chatapp, // put a screenshot of your chat app in assets
     link: './projects/NodeEmail/index.html'
   },
    {
     title: 'E-commerce Platform',
     description: 'A full-featured online store with product listings, cart functionality, and checkout process.',
     tags: ['Vue.js', 'Tailwind CSS', 'Firebase'],
-    image: emailNodeImg,
+    image: ecom,
     link: './projects/NodeEmail/index.html'
   },
 ]
