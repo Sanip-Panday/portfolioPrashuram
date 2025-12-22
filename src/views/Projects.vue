@@ -11,21 +11,21 @@ const projects = [
     description: 'A Node.js project to send emails and save records in MongoDB using Nodemailer.',
     tags: ['Node.js', 'MongoDB', 'Nodemailer'],
     image: emailNodeImg,
-    link: './projects/NodeEmail/index.html' // relative link to your Node Email project HTML
+    link: '#' 
   },
    {
     title: 'Chat Application',
     description: 'A private real-time chat application built using MEVN stack (MongoDB, Express, Vue.js, Node.js).',
     tags: ['MEVN', 'Node.js', 'MongoDB', 'Vue.js'],
-    image: chatapp, // put a screenshot of your chat app in assets
-    link: './projects/NodeEmail/index.html'
+    image: chatapp,
+    link: '#'
   },
    {
     title: 'E-commerce Platform',
     description: 'A full-featured online store with product listings, cart functionality, and checkout process.',
     tags: ['Vue.js', 'Tailwind CSS', 'Firebase'],
     image: ecom,
-    link: './projects/NodeEmail/index.html'
+    link: '#'
   },
 ]
 </script>
